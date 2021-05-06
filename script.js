@@ -10,7 +10,7 @@ function appendAddToCartButton() {
                 button.setAttribute("data-progress-type", "fullscreen");
                 button.setAttribute("href", "/en/direct-buy/add-to-cart/" + itemId);
                 button.setAttribute("style", "color: #282828 !important;background-color: #00eeff !important;border: 2px solid #282828 !important;");
-                button.innerHTML = "Ho il cancro";
+                button.innerHTML = "Aggiungi al carrello";
                 item.getElementsByClassName("shop-links")[0].innerHTML = "";
                 item.getElementsByClassName("shop-links")[0].appendChild(button);
             }
@@ -24,7 +24,7 @@ function appendAddToCartButton() {
                 button.setAttribute("class", "btn-shopping-cart btn-shopping-neutral use-ajax");
                 button.setAttribute("href", "/en/direct-buy/add-to-cart/" + itemId);
                 button.setAttribute("style", "color: #282828 !important;background-color: #00eeff !important;border: 2px solid #282828 !important;");
-                button.innerHTML = "Ho il cancro";
+                button.innerHTML = "Aggiungi al carrello";
                 document.getElementsByClassName("product-page-description")[0].appendChild(button);
             }
         }
